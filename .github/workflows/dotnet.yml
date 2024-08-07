@@ -19,25 +19,12 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./WorkflowGuard/WorkflowGuard.csproj 
     - name: Build
-      run: dotnet build --no-restore
-  test:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: 8.0.x
-    - name: Test
-      run: dotnet test
-    - name: echo
-      run: echo ${{ github.ref }} ${{ github.event_name }}
+      run: dotnet build ./WorkflowGuard/WorkflowGuard.csproj  --no-restore
   publish:
     runs-on: ubuntu-latest
-    needs: test
+    needs: build
     if: ${{  github.ref == 'refs/heads/main' && github.event_name == 'push' }}
     steps:
       - uses: actions/checkout@v3

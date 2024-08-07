@@ -87,8 +87,6 @@
 
 **Manually apply policies using `IWorkflowGuard` in your API endpoints:**
 
-    ```csharp
-
     app.MapGet("/customer/{id}", async (int id, IService service, IWorkflowGuard workflowGuard) =>
     {
         var customer = await workflowGuard.ExecuteAsync(
@@ -112,7 +110,6 @@
     });
 
     app.Run();
-    ```
 ## Installation
 
 ```bash

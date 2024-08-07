@@ -25,10 +25,7 @@
     </ItemGroup>
     
     <ItemGroup>
-      <None Remove="icon.png" />
-      <Content Include="icon.png">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
+          <None Include="icon.png" Pack="true" PackagePath="\" />
     </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
  
 # WorkflowGuard  <img align="right" height="170" width="170" style="padding: 45pt" src="WorkflowGuard/icon.png"/>
 
-**WorkflowGuard** is a .NET library that provides an easy-to-use mechanism for applying resilient policies to method executions. It leverages `Polly` to support retry, fallback, and circuit breaker policies, enabling developers to ensure their applications are more resilient to transient faults and outages.
+**WorkflowGuard** is a .NET library that provides an easy-to-use mechanism for applying resilient policies to method executions. It works similar to `Polly`, but offers simplistic way to support retry, fallback, and circuit breaker policies, enabling developers to ensure their applications are more resilient to transient faults and outages.
 
 ## Features
 
@@ -113,13 +113,6 @@
 
     app.Run();
     ```
-
-## Dependencies
-
-- `Castle.Core`
-- `Microsoft.Extensions.DependencyInjection`
-- `Polly`
-
 ## Installation
 
 ```bash

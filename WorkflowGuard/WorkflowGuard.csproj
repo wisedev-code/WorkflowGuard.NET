@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>WorkflowGuard.NET</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>Wisedev</Authors>
+        <Company>Wisedev</Company>
+        <Description>WorkflowGuard is a .NET library that provides an easy-to-use attribute-based mechanism for applying resilient policies to method executions</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/wisedev-code/Workflow.NET</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/wisedev-code/Workflow.NET</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageIcon>icon.png</PackageIcon>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="Castle.Core" Version="5.1.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <None Remove="icon.png" />
+      <Content Include="icon.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>

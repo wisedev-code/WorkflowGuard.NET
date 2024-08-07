@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowGuard", "WorkflowGuard.csproj", "{1A6CE7D6-4B4E-42DB-912D-7AE4A255278F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowGuard.Demo", "..\WorkflowGuard.Demo\WorkflowGuard.Demo.csproj", "{82300C4C-B445-4F1F-A865-E547DF12A5FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A6CE7D6-4B4E-42DB-912D-7AE4A255278F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6CE7D6-4B4E-42DB-912D-7AE4A255278F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6CE7D6-4B4E-42DB-912D-7AE4A255278F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6CE7D6-4B4E-42DB-912D-7AE4A255278F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EAB7BB3-ACC8-40BB-8BB7-213CAB978530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAB7BB3-ACC8-40BB-8BB7-213CAB978530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAB7BB3-ACC8-40BB-8BB7-213CAB978530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAB7BB3-ACC8-40BB-8BB7-213CAB978530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82300C4C-B445-4F1F-A865-E547DF12A5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82300C4C-B445-4F1F-A865-E547DF12A5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82300C4C-B445-4F1F-A865-E547DF12A5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82300C4C-B445-4F1F-A865-E547DF12A5FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
